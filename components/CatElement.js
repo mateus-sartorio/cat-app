@@ -32,20 +32,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     height: 0.4 * Dimensions.get("screen").height,
-    borderWidth: 2,
-    borderColor: "black",
     padding: 0,
   },
 
   image: {
-    //resizeMode: 'center',
     width: Dimensions.get("screen").width,
     maxHeight: 0.4 * Dimensions.get("screen").height,
-    //height: 0.4 * Dimensions.get('screen').height,
     marginTop: 0,
-    // borderWidth: 1,
-    // borderColor: 'red',
-    // backgroundColor: 'red',
     paddingTop: 0,
   },
 
