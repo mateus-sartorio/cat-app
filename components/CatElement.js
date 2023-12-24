@@ -1,9 +1,6 @@
 //Importing React Native stuff
 import React, { useState } from "react";
-import { StyleSheet, View, Text, Image, ImageBackground, TouchableOpacity, Dimensions, Touchable } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, Image, TouchableOpacity, Dimensions } from "react-native";
 
 export default function CatElement({ id, image, title, description, handlePressFunction }) {
   const fullHeart = require("../assets/Cat_Images/Full_Heart.png");

@@ -1,9 +1,6 @@
 //Importing React Native stuff
 import React from "react";
-import { StyleSheet, View, Text, Image, ImageBackground, Alert, TouchableOpacity, ScrollView } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { StatusBar } from "expo-status-bar";
+import { StyleSheet, ScrollView } from "react-native";
 
 //Importing my own components
 import CatElement from "./CatElement";

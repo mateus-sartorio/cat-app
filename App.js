@@ -1,9 +1,8 @@
 //Importing React Native Stuff
 import React from "react";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { StatusBar } from "expo-status-bar";
 
 //Importing my own components
 import HomePage from "./components/HomePage";
